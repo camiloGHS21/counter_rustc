@@ -1,0 +1,9 @@
+[package]
+name = "app-iced"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["wgpu"] }
+iced_web = "0.4"
+
